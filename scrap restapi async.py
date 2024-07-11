@@ -1,7 +1,9 @@
+# Сенсу від асинхронного методу немає, адже ми робимо всього один запит, але зайвим не буде
+
 import pandas as pd
 import asyncio, aiohttp
 
-class CountryData:
+class CountryData:https://github.com/yaGeey/scrap-test/blob/main/scrap%20restapi%20async.py#L1C0
     def __init__(self, url):
         self.url = url
         self.data = None
